@@ -2,9 +2,9 @@ from multiprocessing import Process
 import time
 
 def plus():
-		for i in range(10):
-			print("+")
-			time.sleep(1)
+	for i in range(10):
+		print("+")
+		time.sleep(1)
 
 def star():
 	for i in range(10):
